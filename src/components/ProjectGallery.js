@@ -1,4 +1,5 @@
-export default function Navbar() {
+// Niklas
+export default function ProjectGallery() {
     return (
         <div>
             

@@ -1,4 +1,5 @@
-export default function Navbar() {
+// Tony
+export default function Footer() {
     return (
         <div>
             

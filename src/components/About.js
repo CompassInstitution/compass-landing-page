@@ -1,7 +1,10 @@
-export default function Navbar() {
+// Matteo
+export default function About() {
     return (
-        <div>
-            
+        <div className="sticky font-serif font-extrabold">
+            <h1>
+                compass compass compass
+            </h1>
         </div>
     );
 }
