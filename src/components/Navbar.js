@@ -3,8 +3,11 @@ export default function Navbar() {
         <nav className="sticky top-0 w-full border border-b-1 z-50">
             <div className="container">
                 <div className="flex flex-row py-1 items-center font-serif">
-                    <div className="basis-1/3">
-                        <img src="logo192.png" alt="Logo" width="90" />
+                    <div className="basis-1/3 flex items-center">
+                        <img src="logo192.png" alt="Logo" width="80" />
+                        <h1 className="p-3 text-5xl font-semi-bold">
+                            COMPASS
+                        </h1>
                     </div>
                     <button className="basis-1/6 basis-">
                         about
