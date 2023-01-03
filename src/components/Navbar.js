@@ -4,12 +4,12 @@ export default function Navbar() {
             <div className="container">
                 <div className="flex flex-row py-1 items-center font-serif">
                     <div className="basis-1/3 flex items-center">
-                        <img src="logo192.png" alt="Logo" width="80" />
-                        <h1 className="p-3 text-5xl font-semi-bold">
+                        <img src="compass-logo.svg" alt="Logo" width={120}/>
+                        {/* <h1 className="p-3 text-5xl font-semi-bold">
                             COMPASS
-                        </h1>
+                        </h1> */}
                     </div>
-                    <button className="basis-1/6 basis-">
+                    <button className="basis-1/6">
                         about
                     </button>
                     <button className="basis-1/6">
