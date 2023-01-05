@@ -1,31 +1,30 @@
+import logo from './images/compass-logo.svg'
+
 export default function Navbar() {
     return (
-        <nav className="sticky top-0 w-full border border-b-1 z-50">
+        <nav className="sticky top-0 w-full border-b-1 z-50 pb-5 pt-3">
             <div className="container">
-                <div className="flex flex-row py-1 items-center font-serif">
+                <div className="flex flex-row py-1 items-center font-snas">
                     <div className="basis-1/3 flex items-center">
-                        <img src="compass-logo.svg" alt="Logo" width={120}/>
-                        {/* <h1 className="p-3 text-5xl font-semi-bold">
-                            COMPASS
-                        </h1> */}
+                        <img src={logo} alt="Logo" width={250} />
                     </div>
                     <button className="basis-1/6">
-                        about
+                        ABOUT
                     </button>
                     <button className="basis-1/6">
-                        events
+                        EVENTS
                     </button>
                     <button className="basis-1/6">
-                        projects
+                        PROJECTS
                     </button>
                     <button className="basis-1/6">
-                        jobs
+                        JOIN US
                     </button>
                     <button className="basis-1/6 flex items-center rounded ">
                         <div className="w-9">
                         </div>
                         <div className="rounded ring-offset-2 ring-2 ring-black w-28 bg-slate-100">
-                            get involved
+                           DONATE
                         </div>
                     </button>
                 </div>
