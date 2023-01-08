@@ -15,7 +15,7 @@ export default function About() {
                 <h2 className="text-3xl">
                     @ UC San Diego
                 </h2>
-                <p className="text-lg font-sans">
+                <p className="text-lg font-sans pt-5">
                     We're a student run organization partnering with local and international organizations to amplify their impact through mathematics, computer science, and data science.
                 </p>
             </div>

@@ -23,8 +23,8 @@ export default function Navbar() {
                     <button className="basis-1/6 flex items-center rounded ">
                         <div className="w-9">
                         </div>
-                        <div className="rounded ring-offset-2 ring-2 ring-black w-28 bg-slate-100">
-                           DONATE
+                        <div className="rounded ring-offset-2 ring-2 ring-sky-900 ring-opacity-70 w-28 bg-gradient-to-tr from-gray-100 to-sky-100">
+                           SUPPORT US
                         </div>
                     </button>
                 </div>
