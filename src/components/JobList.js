@@ -1,6 +1,7 @@
 // Matthew 
 import { ScrollMenu } from "react-horizontal-scrolling-menu";
 import Card from './Card';
+import HorizontalScroll from "./HorizontalScroll";
 
 
 const jobLists = [];
@@ -10,7 +11,7 @@ export default function JobLists() {
         <div className="items-center container text-center pt-5">
             <h1 className="font-semibold text-2xl ">Job Listings</h1>
             <div div className="sticky font-sans items-center">
-                <ScrollMenu>{jobLists.map((jobLists) => Card(jobLists))}</ScrollMenu>
+                {HorizontalScroll(jobLists.map((jobLists) => Card(jobLists)))}
             </div>
         </div>
     );
@@ -45,3 +46,13 @@ const exampleJobList3 = {
 };
 
 jobLists.push(exampleJobList3);
+
+const exampleJobList4 = {
+    title: "Job Listing 4",
+    date: "1/11/2022",
+    description: "Apply for this job!",
+    rsvpLink: "www.applyhere.com",
+    itemId: "exJbId4",
+};
+
+jobLists.push(exampleJobList4);
