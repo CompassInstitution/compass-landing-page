@@ -18,8 +18,8 @@ export default function JobLists() {
 }
 
 const exampleJobList = {
-    title: "Job Listing",
-    date: "1/9/2022",
+    title: "Videographer",
+    date: "1/23/2023",
     description: "Apply for this job!",
     rsvpLink: "www.applyhere.com",
     itemId: "exJbId",
@@ -28,8 +28,8 @@ const exampleJobList = {
 jobLists.push(exampleJobList);
 
 const exampleJobList2 = {
-    title: "Job Listing 2",
-    date: "1/10/2022",
+    title: "Data Scientist",
+    date: "1/23/2023",
     description: "Apply for this job!",
     rsvpLink: "www.applyhere.com",
     itemId: "exJbId2",
@@ -39,7 +39,7 @@ jobLists.push(exampleJobList2);
 
 const exampleJobList3 = {
     title: "Job Listing 3",
-    date: "1/11/2022",
+    date: "1/23/2023",
     description: "Apply for this job!",
     rsvpLink: "www.applyhere.com",
     itemId: "exJbId3",
@@ -49,7 +49,7 @@ jobLists.push(exampleJobList3);
 
 const exampleJobList4 = {
     title: "Job Listing 4",
-    date: "1/11/2022",
+    date: "1/23/2023",
     description: "Apply for this job!",
     rsvpLink: "www.applyhere.com",
     itemId: "exJbId4",
