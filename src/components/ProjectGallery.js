@@ -1,6 +1,7 @@
 // Niklas
 import { ScrollMenu } from "react-horizontal-scrolling-menu";
 import Card from './Card';
+import HorizontalScroll from "./HorizontalScroll";
 
 
 const projects = [];
@@ -10,7 +11,7 @@ export default function ProjectGallery() {
         <div className="items-center container text-center pt-5">
             <h1 className="font-semibold text-2xl ">Projects</h1>
             <div div className="sticky font-sans items-center">
-                <ScrollMenu>{projects.map((event) => Card(event))}</ScrollMenu>
+                {HorizontalScroll(projects.map((event) => Card(event)))}
             </div>
         </div>
     );
@@ -36,10 +37,19 @@ const exampleProject2 = {
 projects.push(exampleProject2);
 
 const exampleProject3 = {
-    title: "Proejct3",
+    title: "Project3",
     description: "Check out this other other project!",
     rsvpLink: "www.example3.com",
     itemID: "exEv3Id",
 };
 
 projects.push(exampleProject3);
+
+const exampleProject4 = {
+    title: "Project4",
+    description: "Check out this last project!",
+    rsvpLink: "www.example4.com",
+    itemId: "exEv4Id",
+};
+
+projects.push(exampleProject4);
