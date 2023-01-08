@@ -1,8 +1,47 @@
 // Matthew 
-export default function JobList() {
+import { ScrollMenu } from "react-horizontal-scrolling-menu";
+import Card from './Card';
+
+
+const jobLists = [];
+
+export default function JobLists() {
     return (
-        <div>
-            <h1>What's good</h1>
+        <div className="items-center container text-center pt-5">
+            <h1 className="font-semibold text-2xl ">Job Listings</h1>
+            <div div className="sticky font-sans items-center">
+                <ScrollMenu>{jobLists.map((jobLists) => Card(jobLists))}</ScrollMenu>
+            </div>
         </div>
     );
 }
+
+const exampleJobList = {
+    title: "Job Listing",
+    date: "1/9/2022",
+    description: "Apply for this job!",
+    rsvpLink: "www.applyhere.com",
+    itemId: "exJbId",
+};
+
+jobLists.push(exampleJobList);
+
+const exampleJobList2 = {
+    title: "Job Listing 2",
+    date: "1/10/2022",
+    description: "Apply for this job!",
+    rsvpLink: "www.applyhere.com",
+    itemId: "exJbId2",
+};
+
+jobLists.push(exampleJobList2);
+
+const exampleJobList3 = {
+    title: "Job Listing 3",
+    date: "1/11/2022",
+    description: "Apply for this job!",
+    rsvpLink: "www.applyhere.com",
+    itemId: "exJbId3",
+};
+
+jobLists.push(exampleJobList3);
