@@ -2,7 +2,7 @@ import logo from './images/compass-logo.svg'
 
 export default function Navbar() {
     return (
-        <nav className="sticky top-0 w-full border-b-1 z-50 pb-5 pt-3">
+        <nav className="sticky top-0 w-full border-b-1 z-50 pb-5 pt-3 bg-white">
             <div className="container">
                 <div className="flex flex-row py-1 items-center font-snas">
                     <div className="basis-1/3 flex items-center">
