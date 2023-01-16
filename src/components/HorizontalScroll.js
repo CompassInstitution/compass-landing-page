@@ -4,9 +4,11 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi"
 
 export default function HorizontalScroll(children) {
   return (
-    <ScrollMenu className=" scrollbar-hide" LeftArrow={LeftArrow} RightArrow={RightArrow}>
-      {children}
-    </ScrollMenu>
+    <div className=" scorllbar-hide">
+      <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}>
+        {children}
+      </ScrollMenu>
+    </div>
   );
 }
 
