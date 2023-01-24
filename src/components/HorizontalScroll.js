@@ -1,11 +1,15 @@
 import React from "react";
 import { ScrollMenu, VisibilityContext } from "react-horizontal-scrolling-menu";
-import { HiChevronLeft, HiChevronRight } from "react-icons/hi"
+import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
 export default function HorizontalScroll(children) {
   return (
-    <div >
-      <ScrollMenu className="container items-center" LeftArrow={LeftArrow} RightArrow={RightArrow}>
+    <div>
+      <ScrollMenu
+        className="container items-center"
+        LeftArrow={LeftArrow}
+        RightArrow={RightArrow}
+      >
         {children}
       </ScrollMenu>
     </div>
@@ -17,7 +21,7 @@ function LeftArrow() {
     React.useContext(VisibilityContext);
   return (
     <Arrow disabled={isFirstItemVisible} onClick={() => scrollPrev()}>
-      <HiChevronLeft className=" "/>
+      <HiChevronLeft className=" " />
     </Arrow>
   );
 }
