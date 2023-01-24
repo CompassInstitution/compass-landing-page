@@ -64,12 +64,38 @@ export default function ProjectGallery() {
                 </svg>
 
             </div>
-            <div className="flex items-stretch container">
-                <div className="rounded-xl bg-green-500 font-sans font-semibold text-2xl p-5">
+            <div className="flex items-start container rounded">
+                <div className="rounded-xl bg-gradient-to-tr from-gray-100 to-orange-100 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg">
                     <h1>Local Project</h1>
+                    <div className="pt-5 px-5">
+                        <p className=" font-normal text-lg text-left shadow-inner rounded-2xl p-2 brightness-30">
+                            We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data. 
+                        </p>
+                    </div>
+                    <h2 className="text-2xl pt-8 pb-5">
+                        Roadmap
+                    </h2>
+                    <div className="rounded-xl bg-gradient-to-tr from-white to-slate-100 container shadow-inner">
+                        <p className="font-normal text-lg px-5">
+                            text text text
+                            <div className=" py-20">
+                            </div>
+                        </p>
+                    </div>
                 </div>
-                <div className="rounded-xl bg-yellow-500 font-sans font-semibold text-2xl p-5">
+                <div className="rounded-xl bg-gradient-to-tr from-gray-100 to-sky-100 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg">
                     <h1>Global Project</h1>
+                    <p className=" font-normal text-lg pt-5 px-5 text-left">
+                        We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data. 
+                    </p>
+                    <h2 className="text-2xl pt-8 pb-5">
+                        Roadmap
+                    </h2>
+                    <div className="rounded-xl bg-gradient-to-tr from-white to-slate-100 container shadow-inner">
+                        <p className="font-normal text-lg px-5">
+                            text text text
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

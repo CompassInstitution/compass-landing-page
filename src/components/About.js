@@ -1,7 +1,7 @@
 // Matteo
 export default function About() {
     return (
-        <div className="flex items-center container py-10 rounded-3xl bg-gradient-to-tr from-gray-100 to-sky-100">
+        <div className="flex items-center container py-10 rounded-3xl bg-gradient-to-tr from-gray-100 to-sky-100 shadow-lg">
             <div className="sticky font-sans p-10">
                 <div className="flex">
                     <h1 className="font-semibold text-5xl">
