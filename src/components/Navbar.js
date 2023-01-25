@@ -19,28 +19,28 @@ const applicationLink = "https://docs.google.com/forms/d/e/1FAIpQLScc3bGFP6uV8Hk
 
 export default function Navbar() {
     return (
-        <nav className="sticky top-0 w-full border-b-1 z-50 pb-5 pt-3 bg-white shadow-sm">
+        <nav className="sticky top-0 w-full border-b-1 z-50 pb-5 pt-3 bg-white shadow-sm ">
             <div className="container">
                 <div className="flex flex-row py-1 items-center font-snas">
                     <div onClick={refreshPage} className="basis-1/3 flex items-center">
                         <img src={logo} alt="Logo" width={250} />
                     </div>
-                    <button onClick={refreshPage} className="basis-1/6">
+                    <button onClick={refreshPage} className="basis-1/6 hover:underline">
                         ABOUT
                     </button>
-                    <button onClick={jumpToEvents} className="basis-1/6">
+                    <button onClick={jumpToEvents} className="basis-1/6 hover:underline">
                         EVENTS
                     </button>
-                    <button onClick={jumpToProjects} className="basis-1/6">
+                    <button onClick={jumpToProjects} className="basis-1/6 hover:underline">
                         PROJECTS
                     </button>
-                    <button onClick={() => window.open(applicationLink, '_blank', 'noreferrer')} className="basis-1/6">
+                    <button onClick={() => window.open(applicationLink, '_blank', 'noreferrer')} className="basis-1/6 hover:underline">
                         JOIN US
                     </button>
                     <button className="basis-1/6 flex items-center rounded ">
                         <div className="w-9">
                         </div>
-                        <div className="rounded ring-offset-2 ring-2 ring-sky-900 ring-opacity-70 w-28 bg-gradient-to-tr from-gray-100 to-sky-100">
+                        <div className="rounded ring-offset-2 ring-2 ring-sky-900 ring-opacity-70 w-28 bg-gradient-to-tr from-gray-100 to-sky-100 hover:underline">
                            SUPPORT US
                         </div>
                     </button>

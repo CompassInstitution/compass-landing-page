@@ -1,58 +1,3 @@
-// Niklas
-// import { ScrollMenu } from "react-horizontal-scrolling-menu";
-// import Card from './Card';
-// import HorizontalScroll from "./HorizontalScroll";
-
-
-// const projects = [];
-
-// export default function ProjectGallery() {
-//     return (
-//         <div className="items-center container text-center p-10">
-//             <h1 className="font-semibold text-2xl ">Projects</h1>
-//             <div div className="sticky font-sans items-center">
-//                 {HorizontalScroll(projects.map((event) => Card(event)))}
-//             </div>
-//         </div>
-//     );
-// }
-
-
-// const exampleProject = {
-//     title: "Project",
-//     description: "Check out this project!",
-//     rsvpLink: "www.example.com",
-//     itemId: "exEvId",
-// };
-
-// projects.push(exampleProject);
-
-// const exampleProject2 = {
-//     title: "Project2",
-//     description: "Check out this other project!",
-//     rsvpLink: "www.example2.com",
-//     itemID: "exEv2Id",
-// };
-
-// projects.push(exampleProject2);
-
-// const exampleProject3 = {
-//     title: "Project3",
-//     description: "Check out this other other project!",
-//     rsvpLink: "www.example3.com",
-//     itemID: "exEv3Id",
-// };
-
-// projects.push(exampleProject3);
-
-// const exampleProject4 = {
-//     title: "Project4",
-//     description: "Check out this last project!",
-//     rsvpLink: "www.example4.com",
-//     itemId: "exEv4Id",
-// };
-
-// projects.push(exampleProject4);
 
 export default function ProjectGallery() {
     return (
@@ -69,7 +14,18 @@ export default function ProjectGallery() {
                     <h1>Local Project</h1>
                     <div className="pt-5 px-5">
                         <p className=" font-normal text-lg text-left p-2">
-                            We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data. 
+                            At COMPASS we have two main objectives for the local project  <br />
+                            <ol class="list-decimal pl-5">
+                                <li>Address a San Diego-specific issue and gather data on the factors that contribute to this phenomenon.</li>
+                                <li>Directly assist a local organization in an innovative technical aspect that organizations cannot achieve by themselves.</li>
+                            </ol>
+                            <br />
+                            In this project cycle, we are focusing on the ongoing housing crisis in San Diego. 
+                            We are aiming to publish a short documentary at the end of Spring 2023 which weaves together 
+                            our interviews with local homeless relief organizations to spread awareness for the true needs
+                            of those who are actively working to better their communities. In addition to the documentary, 
+                            we are working to build a math-powered application which will serve the specific needs of one 
+                            homeless organization. This project will ship in early summer 2023.
                         </p>
                     </div>
                     <h2 className="text-2xl pt-8 pb-5">
@@ -86,7 +42,7 @@ export default function ProjectGallery() {
                 <div className="rounded-xl bg-gradient-to-tr from-gray-100 to-sky-100 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg">
                     <h1>Global Project</h1>
                     <p className=" font-normal text-lg pt-5 px-5 text-left">
-                        We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data. 
+                        We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data.
                     </p>
                     <h2 className="text-2xl pt-8 pb-5">
                         Roadmap
