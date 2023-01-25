@@ -68,7 +68,7 @@ export default function ProjectGallery() {
                 <div className="rounded-xl bg-gradient-to-tr from-gray-100 to-orange-100 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg">
                     <h1>Local Project</h1>
                     <div className="pt-5 px-5">
-                        <p className=" font-normal text-lg text-left shadow-inner rounded-2xl p-2 brightness-30">
+                        <p className=" font-normal text-lg text-left p-2">
                             We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data. 
                         </p>
                     </div>
