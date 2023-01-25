@@ -1,4 +1,4 @@
-export default function Card({ title, date, description, rsvpLink, itemId }) {
+export default function Card({ title, description, rsvpLink, itemId }) {
   return (
     <a href={rsvpLink} target="_blank">
       <div className="p-3">
@@ -6,7 +6,6 @@ export default function Card({ title, date, description, rsvpLink, itemId }) {
           <div className="font-sans" itemID={itemId} key={itemId}>
             <h1 className=" font-semibold text-2xl">{title}</h1>
             <div>{description}</div>
-            <div>{date}</div>
           </div>
         </div>
       </div>

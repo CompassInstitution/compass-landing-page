@@ -2,7 +2,66 @@
 import Card from "./Card";
 import HorizontalScroll from "./HorizontalScroll";
 
-const jobLists = [];
+const applicationLink = "https://docs.google.com/forms/d/e/1FAIpQLScc3bGFP6uV8Hki20BW1XQq4m1i6-W06qNpg-9eg2mic5Co0A/viewform?usp=sf_link";
+
+const jobLists = [
+  {
+    title: "Videographer",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+
+  {
+    title: "Software Engineer",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+
+  {
+    title: "Data Scientist",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+
+  {
+    title: "Modeling Engineer",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+
+  {
+    title: "Photographer",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+
+  {
+    title: "Director of Communications",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+
+  {
+    title: "Community Manager",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+
+  {
+    title: "Outreach Coordinator",
+    description: "Apply for this job!",
+    rsvpLink: applicationLink,
+    itemId: "exJbId",
+  },
+  
+];
 
 export default function JobLists() {
   return (
@@ -14,45 +73,3 @@ export default function JobLists() {
     </div>
   );
 }
-
-const applicationLink = "https://docs.google.com/forms/d/e/1FAIpQLScc3bGFP6uV8Hki20BW1XQq4m1i6-W06qNpg-9eg2mic5Co0A/viewform?usp=sf_link";
-
-const exampleJobList = {
-  title: "Videographer",
-  date: "1/23/2023",
-  description: "Apply for this job!",
-  rsvpLink: applicationLink,
-  itemId: "exJbId",
-};
-
-jobLists.push(exampleJobList);
-
-const exampleJobList2 = {
-  title: "Data Scientist",
-  date: "1/23/2023",
-  description: "Apply for this job!",
-  rsvpLink: applicationLink,
-  itemId: "exJbId2",
-};
-
-jobLists.push(exampleJobList2);
-
-const exampleJobList3 = {
-  title: "Software Engineer",
-  date: "1/23/2023",
-  description: "Apply for this job!",
-  rsvpLink: applicationLink,
-  itemId: "exJbId3",
-};
-
-jobLists.push(exampleJobList3);
-
-const exampleJobList4 = {
-  title: "Job Listing 4",
-  date: "1/23/2023",
-  description: "Apply for this job!",
-  rsvpLink: applicationLink,
-  itemId: "exJbId4",
-};
-
-jobLists.push(exampleJobList4);
