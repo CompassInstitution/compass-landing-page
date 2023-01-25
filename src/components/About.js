@@ -1,3 +1,5 @@
+import roundLogo from './images/compass_logo_secondary.svg'
+
 // Matteo
 export default function About() {
     return (
@@ -19,8 +21,8 @@ export default function About() {
                     We're a student run organization partnering with local and international organizations to amplify their impact through mathematics, computer science, and data science.
                 </p>
             </div>
-            <div className="basis-5/6">
-
+            <div className="basis-5/6 container flex justify-center blur-sm hover:blur-0">
+                <img className=" opacity-10 " src={roundLogo} alt="" width={350} />
             </div>
         </div>
     );
