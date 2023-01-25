@@ -38,7 +38,7 @@ const exampleEvent = {
   title: "Global Project Meeting",
   date: "1/9/2022",
   description: "Attend our example event!",
-  rsvpLink: "www.example.com",
+  rsvpLink: "https://forms.gle/c83bkSwLVUXjBhw77",
   itemId: "exEvId",
 };
 
@@ -48,7 +48,7 @@ const exampleEvent2 = {
   title: "Example2",
   date: "1/10/2022",
   description: "Attend this second example event!",
-  rsvpLink: "www.example2.com",
+  rsvpLink: "https://forms.gle/c83bkSwLVUXjBhw77",
   itemID: "exEv2Id",
 };
 
