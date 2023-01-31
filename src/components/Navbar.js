@@ -1,18 +1,17 @@
 import logo from './images/compass-logo.svg';
 
-
 function refreshPage() {
     window.scrollTo(0, 0);
     window.location.reload(false);
-    
+
 }
 
 function jumpToProjects() {
-    window.scrollTo(0, 825);    
+    window.scrollTo(0, 825);
 }
 
 function jumpToEvents() {
-    window.scrollTo(0, 500);    
+    window.scrollTo(0, 500);
 }
 
 const applicationLink = "https://docs.google.com/forms/d/e/1FAIpQLScc3bGFP6uV8Hki20BW1XQq4m1i6-W06qNpg-9eg2mic5Co0A/viewform?usp=sf_link";
@@ -20,30 +19,32 @@ const applicationLink = "https://docs.google.com/forms/d/e/1FAIpQLScc3bGFP6uV8Hk
 export default function Navbar() {
     return (
         <nav className="sticky top-0 w-full border-b-1 z-50 pb-5 pt-3 bg-white shadow-sm ">
-            <div className="container">
-                <div className="flex flex-row py-1 items-center font-snas">
+            <div className="container flex flex-col md:flex-row md:justify-between">
+                <div className="flex items-center justify-center md:justify-start font-snas">
                     <div onClick={refreshPage} className="basis-1/3 flex items-center">
-                        <img src={logo} alt="Logo" width={250} />
+                        <img src={logo} alt="Logo" width={1000} />
                     </div>
-                    <button onClick={refreshPage} className="basis-1/6 hover:underline">
+                </div>
+                <div className="flex items-center justify-between md:justify-end">
+                    <button onClick={refreshPage} className="px-4 hover:underline">
                         ABOUT
                     </button>
-                    <button onClick={jumpToEvents} className="basis-1/6 hover:underline">
+                    <button onClick={jumpToEvents} className="px-4 hover:underline">
                         EVENTS
                     </button>
-                    <button onClick={jumpToProjects} className="basis-1/6 hover:underline">
+                    <button onClick={jumpToProjects} className="px-4 hover:underline">
                         PROJECTS
                     </button>
-                    <button onClick={() => window.open(applicationLink, '_blank', 'noreferrer')} className="basis-1/6 hover:underline">
+                    <button onClick={() => window.open(applicationLink, '_blank', 'noreferrer')} className="px-4 hover:underline" style={{ whiteSpace: "nowrap" }}>
                         JOIN US
                     </button>
-                    <button className="basis-1/6 flex items-center rounded ">
+                    {/* <button className="px-4 flex items-center rounded ">
                         <div className="w-9">
                         </div>
                         <div className="rounded ring-offset-2 ring-2 ring-sky-900 ring-opacity-70 w-28 bg-gradient-to-tr from-gray-100 to-sky-100 hover:underline">
                            SUPPORT US
                         </div>
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </nav>
