@@ -26,9 +26,10 @@ export default function Events() {
           />
         </svg>
       </div>
-
-      <div div className="sticky font-sans items-center">
-        {HorizontalScroll(events.map((event) => EventCard(event)))}
+      <div className="items-center container text-center flex">
+        <div div className="sticky font-sans items-center">
+          {HorizontalScroll(events.map((event) => EventCard(event)))}
+        </div>
       </div>
     </div>
   );
