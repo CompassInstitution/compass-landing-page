@@ -9,11 +9,11 @@ export default function ProjectGallery() {
                 </svg>
 
             </div>
-            <div className="flex items-start container rounded">
-                <div className="rounded-xl bg-gradient-to-tr from-gray-100 to-orange-100 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg">
-                    <h1>Local Project</h1>
+            <div className="flex-none md:flex items-start container rounded">
+                <div className="rounded-xl bg-gradient-to-tr from-slate-700 to-slate-800 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg hover:shadow-xl">
+                    <h1 class="text-white">Local Project</h1>
                     <div className="pt-5 px-5">
-                        <p className=" font-normal text-lg text-left p-2">
+                        <p className="font-normal text-lg text-left p-2 text-white">
                             At COMPASS we have two main objectives for the local project  <br />
                             <ol class="list-decimal pl-5">
                                 <li>Address a San Diego-specific issue and gather data on the factors that contribute to this phenomenon.</li>
@@ -30,9 +30,9 @@ export default function ProjectGallery() {
                     </div>
                     
                 </div>
-                <div className="rounded-xl bg-gradient-to-tr from-gray-100 to-sky-100 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg">
-                    <h1>Global Project</h1>
-                    <p className=" font-normal text-lg pt-5 px-5 text-left">
+                <div className="rounded-xl bg-gradient-to-tr from-slate-700 to-slate-800 font-sans font-semibold text-2xl p-5 basis-1/2 shadow-lg hover:shadow-xl">
+                    <h1 class="text-white">Global Project</h1>
+                    <p className=" font-normal text-lg pt-5 px-5 text-left text-white">
                         We are using climate, financial, and satellite data to predict famine in affected regions. We are conducting data-driven research to develop an intimate understanding of agricultural supply chains and their markets. Our learnings power in-house mathematical models which help us draw practical utility from our data.
                     </p>
                     
