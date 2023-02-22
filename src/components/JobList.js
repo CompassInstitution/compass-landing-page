@@ -80,7 +80,7 @@ function Card({ title, description, rsvpLink, itemId }) {
   return (
       <a href={rsvpLink} target="_blank">
           <div className="p-3 text-white">
-              <div className="container items-stretch py-5 rounded-3xl bg-gradient-to-tr from-slate-800 to-slate-800 w-80 shadow-lg hover:shadow-xl">
+              <div className="container items-stretch py-5 rounded-3xl bg-gradient-to-tr from-slate-700 to-slate-800 w-80 shadow-lg hover:shadow-xl">
                   <div className="font-sans" itemID={itemId} key={itemId}>
                       <h1 className=" font-semibold text-2xl">{title}</h1>
                       <hr className="my-3 border-gray-400 border-dashed" />
