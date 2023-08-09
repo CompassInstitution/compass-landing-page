@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "compassinstitution.com",
+  "Id": "01041569-b21b-4c82-928b-ca1e00a62ca8"
+}
